@@ -1,0 +1,162 @@
+
+
+
+body{
+    background-color: #FDF7E4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Navbar {
+    background-color: #BBAB8C;
+    text-align: center;
+    overflow: hidden;
+}
+
+.Navbar a{
+    float: right;
+    color: white;
+    text-decoration: none;
+    padding: 14px 14px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Navbar a:hover{
+    background-color: #EAD7BB;
+    color: #706233;
+}
+
+.main{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3C2A21;
+    font-size: 50px;
+    padding-top: 20px ;
+}
+
+
+.poto{
+    float:left;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    
+}
+
+img{
+    width: 200px;
+    height: 310px;
+    padding-left: 200px;
+}
+
+.nama{
+    font-size: 50px;
+    padding-top: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text{
+    padding-top: 10px;
+    float:left;
+    padding-left: 200px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nma{
+    font-size: 25px;
+}
+
+.pendidikan{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.riwayat{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    }
+
+    td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.tentang{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+.tntg{
+    text-align: center;
+    font-size: 51px;
+}
+
+saya{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-box{
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.form{
+    margin: 35px;
+}
+
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 4px;
+    outline: none;
+}
+
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+}
+
+.btn{
+    border-radius: 20px;
+    color: #fff;
+    padding :10px;
+    background-color: greenyellow;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+
+}
